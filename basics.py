@@ -5,6 +5,10 @@ age=20
 s="2"
 print(age+int(s))
 
+#NoneType
+x=None
+print(type(x))
+
 #>>>Arithmetic Operations
 a=10
 b=3
@@ -58,4 +62,4 @@ print(name[1:8]) #[start,ends+1]
 print(name[:5])
 print(name[1:])
 print(name[-4])
-print(name[::2])
+print(name[::2]) #[start,ends+1,strip|skip+1]
