@@ -20,11 +20,11 @@ print(a//b) #Floor Division
 print(a%b)  #Modulus|Remainder
 print(a**b) #Exponential
 
-"""#>>>input/ouput 
+#>>>input/ouput 
 age=input("Wt is ur age: ")
 print(age)
 
-'''2.1 Common String Operations
+'''1.1 Common String Operations
 #Concatenation
 >>>Concatenate the string'''
 message=input("Enter ur mssg : ")
@@ -37,13 +37,13 @@ girl_name=input("Enter girl name: ")
 girl_age=int(input("Enter age"))
 age_diff= abs(boy_age-girl_age) #absolute value= gives only exact value but not -ve values
 
-print(f"{boy_name} and {girl_name}, Age difference is str({age_diff})") """
+print(f"{boy_name} and {girl_name}, Age difference is str({age_diff})") 
 
 #Repitition
 greeting ="Hello! "
 print(greeting*6)
 
-#2.2 String Methods
+#1.2 String Methods
 #upper()
 print(greeting.upper())
 #lower()
@@ -55,7 +55,7 @@ print(greeting.replace("Hello","Greetings"))
 #length
 print(len(greeting))
 
-#2.3 Accessing string characters
+#1.3 Accessing string characters
 name="Spoorthi"
 print(name[5])
 print(name[1:8]) #[start,ends+1]
