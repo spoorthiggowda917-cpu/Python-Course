@@ -62,4 +62,5 @@ print(name[1:8]) #[start,ends+1]
 print(name[:5])
 print(name[1:])
 print(name[-4])
+#slicing
 print(name[::2]) #[start,ends+1,strip|skip+1]
