@@ -48,8 +48,10 @@ print(greeting*6)
 print(greeting.upper())
 #lower()
 print(greeting.lower())
-#strip =>removes extra spaces
+#strip =>removes white spaces
 print(greeting.strip())
+#split
+print(greeting.split("l"))
 #replace
 print(greeting.replace("Hello","Greetings"))
 #length
@@ -58,9 +60,9 @@ print(len(greeting))
 #1.3 Accessing string characters
 name="Spoorthi"
 print(name[5])
-print(name[1:8]) #[start,ends+1]
+print(name[1:8]) #slicing[start,ends+1]
 print(name[:5])
 print(name[1:])
 print(name[-4])
 #slicing
-print(name[::2]) #[start,ends+1,strip|skip+1]
+print(name[::2]) #slicing[start,ends+1,strip|skip+1]
