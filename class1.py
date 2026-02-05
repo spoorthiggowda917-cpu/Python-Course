@@ -1,4 +1,4 @@
-"""#CLASS1
+#CLASS1
 #constants
 MAX_Count=1
 MAX_COUNT=22
@@ -46,9 +46,10 @@ print(d.split("n")) #splis at the char mentioned
 #strip
 s1="         replace      "
 print(s1.rstrip(" ")) #removes right spcaes in string
-print(s1.lstrip(" ")) #removes left"""
+print(s1.lstrip(" ")) #removes left
 
 
+print("--------------------------")
 #CLASS2
 #Lists
 a=[1,2,3]
@@ -103,9 +104,42 @@ b=a.copy()
 b.append(5)
 print(b)
 print(a)
-""" if we use copy "a" will not be changed when we make changes in "b"
-but if we use b=a, a can be changed originally """
+# if we use copy "a" will not be changed when we make changes in "b",but if we use b=a, a can be changed originally.
 
 print("--------------")
 a.append("s")
 print(a)
+a.extend(["string",0])
+print(a)
+b=[8,7,6]
+c=[4,56,8]
+a.extend(b) #can also be used foe other list to add
+print(a)
+a.extend([b,c])
+print(a)
+
+print("--------------")
+x=[1,2,3,4,5,6]
+print(max(x))
+x1=["apple","dog","mango"]
+print(max(x1,key=len)) #gives the longest element in list
+print(min(x1,key=len)) #shortest
+print(sum(x))
+
+print("--------------")
+a=[1,2,3,4,5]
+print(a[2:4])
+print(a[::-1])
+
+s="strrrring"
+print(s.replace("r","")) #to remove element in string=>bcz there is no separate function for remove in string
+print(s.replace("r","",1)) #removes only 1st occured element if repeated.
+a=[1,2,2,2,2,3,5,4,6] #removes duplicate values
+b=list(set(a))
+print(b)
+
+print("--------------------------")
+#TUPLES =>in tuples only index and count is used nothing else
+a=(1,2,3,4,5,6,7,8,9)
+print(a.index(5))
+print(a.count(6))
