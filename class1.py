@@ -103,5 +103,9 @@ b=a.copy()
 b.append(5)
 print(b)
 print(a)
-""" if we use copy "a" will not be changed
+""" if we use copy "a" will not be changed when we make changes in "b"
 but if we use b=a, a can be changed originally """
+
+print("--------------")
+a.append("s")
+print(a)
